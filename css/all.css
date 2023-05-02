@@ -139,10 +139,12 @@ body {
 }
 
 button {
-  bottom: 0;
+  bottom: 10px;
+  left: 15px;
   position: absolute;
   display: none;
   opacity: 0;
+  font-size: 11px;
 }
 
 /*# sourceMappingURL=all.css.map */
