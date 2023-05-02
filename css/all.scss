@@ -1,0 +1,91 @@
+//sass --watch css:css
+@import "_lib.scss";
+
+body{
+    color:#fff;
+}
+
+.wrapper{
+    margin:0 auto;
+    max-width:1024px;
+}
+
+#maincontainer{
+    padding:20px 0;
+}
+
+.block{
+    width:100px;
+    height:100px;
+    display: inline-block;
+    // background-color: green;
+    border:1px solid white;
+}
+
+.circle{
+    width:100px;
+    height:100px;
+    border:1px solid white;
+    border-radius: 20px;
+}
+
+.container{
+    padding:20px 0;
+    display: block;
+    margin:0 0 10px;
+
+    strong{
+        display: block;
+        margin: 0 0 10px;
+    }
+}
+
+#ads{
+    width:300px;
+    height:250px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg{
+    @include background("home-panel-02-edit.jpg");
+    opacity: 0;
+    width: 300px;
+    height: 250px;
+}
+.caption{
+    background:white;
+    opacity: 0;
+    width:300px;
+    height:80px;
+    position: absolute;
+    bottom:0;
+
+    div{
+        opacity:0;
+        position: absolute;
+        color:black;
+        margin:15px 0 0 15px;
+
+        &.text1{
+            opacity:1;
+        }
+    }
+}
+.logo{
+    @include background("logo.svg");
+    width:30px;
+    height:30px;
+    position: absolute;
+    bottom:5px;
+    right:5px;
+    opacity: 0;
+}
+
+button{
+    bottom:0;
+    position: absolute;
+    display:none;
+    opacity:0;
+}
