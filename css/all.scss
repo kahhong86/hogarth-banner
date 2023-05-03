@@ -84,10 +84,26 @@ body{
 }
 
 button{
-    bottom:10px;
-    left:15px;
+    top:10px;
+    right:15px;
     position: absolute;
     display:none;
     opacity:0;
     font-size:11px;
+}
+.finale{
+    opacity: 0;
+    display: none;
+    position: absolute;
+    top:0;
+    background-color: #1d1d1d;
+
+    div{
+        display: inline-block;
+    }
+}
+.bg1{
+    @include background('banner.jpg');
+    width:300px;
+    height: 250px;
 }

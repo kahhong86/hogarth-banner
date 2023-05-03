@@ -139,12 +139,29 @@ body {
 }
 
 button {
-  bottom: 10px;
-  left: 15px;
+  top: 10px;
+  right: 15px;
   position: absolute;
   display: none;
   opacity: 0;
   font-size: 11px;
+}
+
+.finale {
+  opacity: 0;
+  display: none;
+  position: absolute;
+  top: 0;
+  background-color: #1d1d1d;
+}
+.finale div {
+  display: inline-block;
+}
+
+.bg1 {
+  background: url("../images/banner.jpg") no-repeat scroll left top transparent;
+  width: 300px;
+  height: 250px;
 }
 
 /*# sourceMappingURL=all.css.map */
