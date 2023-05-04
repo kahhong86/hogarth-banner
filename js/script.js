@@ -92,6 +92,9 @@ const Animation = () => {
     .to('button',{
         opacity:1,duration:0.5,display:"block"
     })
+    .to("#Layer_2",{
+        opacity:1,duration:0.5,display:"block"
+    },"<")
     ;
 }
 

@@ -164,4 +164,27 @@ button {
   height: 250px;
 }
 
+#Layer_2 {
+  opacity: 0;
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  width: 200px;
+  height: 200px;
+  fill: white;
+}
+#Layer_2 g path {
+  filter: drop-shadow(2px 4px 2px rgba(0, 0, 0, 0.8));
+}
+#Layer_2 .outer {
+  fill: #ee7003;
+}
+#Layer_2 .inner {
+  fill: #12a639;
+}
+#Layer_2 .circle {
+  fill: #009ee4;
+}
+
 /*# sourceMappingURL=all.css.map */
